@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+    background-color: rgb(97, 149, 247);
+    font-size: 3rem;
+    color: yellow;
+}
+
+ul {
+    list-style: none;
+}
