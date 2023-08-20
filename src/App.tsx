@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      This is App copmonentw
+      This is App copmonen
     </div>
   );
 }
