@@ -13,29 +13,20 @@ function hello() {
 // hello();
 
 function App() {
-  console.log('app rendering');
+  console.log('App rendering');
   return (
     <div>
-      This is App copmonen
-      {/* <FirstComponent /> */}
+      <AppTitle />
+      <Rating />
       <Accordion />
       <Rating />
     </div>
   );
 }
 
-// function FirstComponent() {
-//   return <div>
-//     <article>
-//       <h1>My First Component</h1>
-//       <ol>
-//         <li>Components: UI Building Blocks</li>
-//         <li>Defining a Component</li>
-//         <li>Using a Component</li>
-//       </ol>
-//     </article>
-//   </div>
-// }
-
+function AppTitle() {
+  console.log('AppTitle rendering');
+  return <>This is APP component</>
+}
 
 export default App;

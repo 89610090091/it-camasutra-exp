@@ -1,21 +1,28 @@
 import React from "react";
 
+// function sum(a: number, b: number) {
+//     alert(a + b);
+// }
+
+// sum(23, 34);
+
+
 function Rating() {
     console.log('Rating rendering');
     return (
         <div>
-            <Star />
-            <Star />
-            <Star />
-            <Star />
-            <Star />
+            <Star selected={true} />
+            <Star selected={true} />
+            <Star selected={false} />
+            <Star selected={false} />
+            <Star selected={false} />
         </div>
     )
 }
 
-function Star() {
+function Star(props: any) {
     console.log('Star rendering');
-    return <span>Star</span>
+    return <span><b>Star </b></span>
 }
 
 export default Rating
