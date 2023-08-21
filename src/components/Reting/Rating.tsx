@@ -17,3 +17,5 @@ function Star() {
     console.log('Star rendering');
     return <span>Star</span>
 }
+
+export default Rating

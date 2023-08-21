@@ -1,7 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import './components/Reting/Rating';
+import Rating from './components/Reting/Rating';
 import Accordion from './components/Accordion/Accordion';
 
 
