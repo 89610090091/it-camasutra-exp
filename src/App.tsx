@@ -1,6 +1,9 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import './components/Reting/Rating';
+import Accordion from './components/Accordion/Accordion';
+
 
 function hello() {
   debugger
@@ -14,43 +17,25 @@ function App() {
   return (
     <div>
       This is App copmonen
-      <br />
+      {/* <FirstComponent /> */}
+      <Accordion />
       <Rating />
     </div>
   );
 }
 
-function Rating() {
-  console.log('Rating rendering');
-  return (
-    <div>
-      <Star />
-      <Star />
-      <Star />
-      <Star />
-      <Star />
-    </div>
-  )
-}
+// function FirstComponent() {
+//   return <div>
+//     <article>
+//       <h1>My First Component</h1>
+//       <ol>
+//         <li>Components: UI Building Blocks</li>
+//         <li>Defining a Component</li>
+//         <li>Using a Component</li>
+//       </ol>
+//     </article>
+//   </div>
+// }
 
-function Star() {
-  console.log('Star rendering');
-  return <div>star</div>
-}
-
-
-
-function Accordion() {
-  console.log('Accordion rendering');
-  return (
-    <div>
-      <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-      </ul>
-    </div>
-  )
-}
 
 export default App;
