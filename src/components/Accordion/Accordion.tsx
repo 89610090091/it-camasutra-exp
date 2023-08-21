@@ -1,10 +1,10 @@
-import React from "react";
+// import React from "react";
 
 function Accordion() {
     console.log('Accordion rendering');
     return (
         <div>
-            < AccordionTitle />
+            <AccordionTitle />
             <AccordionBody />
         </div>
     )
