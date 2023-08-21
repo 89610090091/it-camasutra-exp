@@ -10,7 +10,6 @@ function Accordion() {
     )
 }
 
-
 function AccordionTitle() {
     console.log('Accordion rendering');
     return (
@@ -19,7 +18,6 @@ function AccordionTitle() {
         </div>
     )
 }
-
 
 function AccordionBody() {
     console.log('Accordion rendering');
