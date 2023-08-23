@@ -1,8 +1,7 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
-import Rating from './components/Reting/Rating';
 import Accordion from './components/Accordion/Accordion';
+import { Rating } from './components/Reting/Rating';
 
 
 function hello() {
@@ -16,6 +15,10 @@ function App() {
   console.log('App rendering');
   return (
     <div>
+      <div>
+        <input type="text" checked={true} />
+      </div>
+      <input type="password" />
       <AppTitle />
       <Rating />
       <Accordion />

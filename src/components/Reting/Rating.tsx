@@ -6,8 +6,7 @@ import React from "react";
 
 // sum(23, 34);
 
-
-function Rating() {
+export function Rating() {
     console.log('Rating rendering');
     return (
         <div>
@@ -25,4 +24,4 @@ function Star(props: any) {
     return <span><b>Star </b></span>
 }
 
-export default Rating
+// export default Rating
