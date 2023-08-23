@@ -11,25 +11,38 @@ function hello() {
 
 // hello();
 
-function App() {
+function App(props: any) {
   console.log('App rendering');
+
   return (
     <div>
-      <div>
-        <input type="text" checked={true} />
-      </div>
-      <input type="password" />
-      <AppTitle />
-      <Rating />
-      <Accordion />
-      <Rating />
+      <PageTitle title={'This is App component'} />
+      <PageTitle title={'My friends'} />
+      Article 1
+      <Rating value={3} />
+      <PageTitle title={'This is App component'} />
+      <Accordion title={'Menu'} />
+      <Accordion title={'User'} />
+      Article 2
+      <Rating value={0} />
+      <Rating value={1} />
+      <Rating value={2} />
+      <Rating value={3} />
+      <Rating value={4} />
+      <Rating value={5} />
     </div>
   );
 }
 
-function AppTitle() {
-  console.log('AppTitle rendering');
-  return <>This is APP component</>
+type PageTytlePropsType = {
+  title: string
+}
+
+function PageTitle(props: PageTytlePropsType) {
+  debugger
+  console.log('PageTitle rendering');
+
+  return <h1>{props.title}</h1>
 }
 
 export default App;

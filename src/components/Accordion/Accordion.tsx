@@ -1,28 +1,41 @@
 // import React from "react";
 
-function Accordion() {
+
+type AccordionPropsType = {
+    title: string
+}
+
+function Accordion(props: AccordionPropsType) {
+    debugger
     console.log('Accordion rendering');
     return (
         <div>
-            <AccordionTitle />
+            {/* <AccordionTitle title={props.title} /> */}
+            <AccordionTitle title={props.title} />
             <AccordionBody />
         </div>
     )
 }
 
-function AccordionTitle() {
+type AccordionTitlePropsType = {
+    title: string
+}
+
+function AccordionTitle(props: AccordionTitlePropsType) {
+    debugger
     console.log('Accordion rendering');
     return (
         <div>
-            <h3>hello</h3>
+            <h3>{props.title}</h3>
         </div>
     )
 }
 
-function AccordionBody() {
+function AccordionBody(props: any) {
     console.log('Accordion rendering');
     return (
         <div>
+            <h1>{props.title}</h1>
             <ul>
                 <li>1</li>
                 <li>2</li>
