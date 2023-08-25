@@ -15,8 +15,8 @@ function App(props: any) {
       Article 1
       <Rating value={3} />
       <PageTitle title={'This is App component'} /> */}
-      <Accordion title={'Menu'} collapsed={true} />
-      <Accordion title={'User'} collapsed={false} />
+      <Accordion collapsed={true} />
+      <Accordion collapsed={false} />
       {/* Article 2
       <Rating value={0} />
       <Rating value={1} />
