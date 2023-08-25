@@ -17,13 +17,13 @@ function App(props: any) {
       <PageTitle title={'This is App component'} /> */}
       <Accordion collapsed={true} />
       <Accordion collapsed={false} />
-      {/* Article 2
+      Article 2
       <Rating value={0} />
       <Rating value={1} />
       <Rating value={2} />
       <Rating value={3} />
       <Rating value={4} />
-      <Rating value={5} /> */}
+      <Rating value={5} />
     </div>
   );
 }
