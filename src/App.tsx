@@ -15,15 +15,16 @@ function App(props: any) {
       Article 1
       <Rating value={3} />
       <PageTitle title={'This is App component'} /> */}
-      <Accordion collapsed={true} />
-      <Accordion collapsed={false} />
-      Article 2
-      <Rating value={0} />
+      <Accordion title={'Menu'} collapsed={true} />
+      <Accordion title={'User'} collapsed={false} />
+      {/* <Accordion collapsed={true} />
+      <Accordion collapsed={false} /> */}
+      {/* <Rating value={0} />
       <Rating value={1} />
       <Rating value={2} />
       <Rating value={3} />
       <Rating value={4} />
-      <Rating value={5} />
+      <Rating value={5} /> */}
     </div>
   );
 }
