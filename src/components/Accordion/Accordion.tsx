@@ -35,7 +35,7 @@ function Accordion(props: AccordionPropsType) {
 type AccordionTitlePropsType = {
     title: string
 }
-function AccordionTitle(props: any) {
+function AccordionTitle(props: AccordionTitlePropsType) {
     debugger
     console.log('Accordion rendering');
     return (
